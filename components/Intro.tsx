@@ -30,20 +30,20 @@ export default function Intro() {
                     />
                 </motion.div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
                     {/* Card 1: What is Host Bar */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="glass-card p-8 md:p-12 rounded-3xl relative overflow-hidden group"
+                        className="glass-card rounded-3xl relative overflow-hidden group flex flex-col h-full"
                     >
                         <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
                             <Crown className="w-32 h-32 text-gold-500" />
                         </div>
                         {/* Content Section */}
-                        <div className="p-6 md:p-10 relative z-10 flex-1 bg-zinc-900/50">
+                        <div className="p-8 md:p-12 relative z-10 flex-1 bg-zinc-900/50 flex flex-col justify-center">
                             <div className="w-14 h-14 bg-gold-500/20 backdrop-blur-md rounded-2xl flex items-center justify-center mb-6 border border-gold-500/30">
                                 <GlassWater className="w-7 h-7 text-gold-500" />
                             </div>
@@ -69,14 +69,14 @@ export default function Intro() {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="glass-card rounded-3xl overflow-hidden group flex flex-col"
+                        className="glass-card rounded-3xl overflow-hidden group flex flex-col h-full"
                     >
                         <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
                             <Heart className="w-32 h-32 text-pink-500" />
                         </div>
 
                         {/* Content Section */}
-                        <div className="p-6 md:p-10 relative z-10 flex-1 bg-zinc-900/50">
+                        <div className="p-8 md:p-12 relative z-10 flex-1 bg-zinc-900/50 flex flex-col justify-center">
                             <div className="w-14 h-14 bg-pink-500/20 backdrop-blur-md rounded-2xl flex items-center justify-center mb-6 border border-pink-500/30">
                                 <Sparkles className="w-7 h-7 text-pink-500" />
                             </div>
