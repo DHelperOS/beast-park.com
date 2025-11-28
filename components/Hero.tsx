@@ -74,8 +74,8 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-2xl text-gray-300 mb-10 font-light tracking-wide max-w-2xl mx-auto leading-relaxed"
           >
-            수원 인계동 <span className="text-gold-400 font-semibold">최고의 수질과 시설</span><br className="block sm:hidden" />
-            당신의 밤을 <span className="text-gold-400 font-semibold">가장 특별하게</span> 만들어드립니다.
+            수원 인계동 <span className="text-gold-400 font-semibold">최고의 수질과 시설</span> 당신의<br className="block sm:hidden" />
+            밤을 <span className="text-gold-400 font-semibold">가장 특별하게</span> 만들어드립니다.
           </motion.p>
         </motion.div>
 
