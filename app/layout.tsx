@@ -22,8 +22,8 @@ const ibmSans = IBM_Plex_Sans_KR({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://beastcj.com"),
-  title: "수원 호빠 | 인계동 호빠 | 동탄 호빠 | 010 7580 1913 | 충재실장",
-  description: "수원 호빠, 인계동 호빠, 동탄 호빠, 수원 호스트바, 인계동 호스트바. 최고의 시설과 수질, 최상의 서비스로 모십니다. 010-7580-1913 충재실장.",
+  title: "수원 호빠 | 인계동 호빠 | 동탄 호빠 | O1O-758O-1913 | 충재실장",
+  description: "수원 호빠, 인계동 호빠, 동탄 호빠, 수원 호스트바, 인계동 호스트바. 최고의 시설과 수질, 최상의 서비스로 모십니다. O1O-758O-1913 충재실장.",
   keywords: "수원 호빠, 인계동 호빠, 동탄 호빠, 수원 호스트바, 인계동 호스트바, 비스트, 수원비스트, 인계동비스트, 충재실장",
   openGraph: {
     title: "수원 호빠 | 인계동 호빠 | 동탄 호빠 | 수원 호스트바",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "수원 호빠 | 인계동 호빠 | 동탄 호빠 | 010 7580 1913 | 충재실장",
+    title: "수원 호빠 | 인계동 호빠 | 동탄 호빠 | O1O-758O-1913 | 충재실장",
     description: "수원 호빠, 인계동 호빠, 동탄 호빠, 수원 호스트바. 최고의 시설과 수질, 최상의 서비스로 모십니다.",
     images: ["/ingyedong-hoppa.png"],
   },
